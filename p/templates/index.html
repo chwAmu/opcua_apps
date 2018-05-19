@@ -1,0 +1,48 @@
+{% extends "base.html"%}
+{% block title%}Data Monitor{% endblock%}
+
+{% block content %}
+<div class='w3-cell-row'>
+	<table class='w3-table w3-striped w3-card w3-cell' style='width:25%'>
+	{% for item in items %}
+	<TR>
+	   <TD>{{item.date}}</TD>
+	   <TD>{{item.id}}</TD>
+	   <TD><SPAN>{{item.position}}</SPAN></TD>
+	   <TD><SPAN>{{item.status}}</SPAN></TD>
+	</TR>
+	{% endfor %}
+	</table>
+	<table class='w3-table w3-striped w3-card w3-cell' style='width:25%'>
+		{% for item in items %}
+	<TR>
+	   <TD class="c2">{{item.date}}</TD>
+	   <TD class="c3">{{item.id}}</TD>
+	   <TD class="c4"><SPAN>{{item.position}}</SPAN></TD>
+	   <TD class="c5"><SPAN>{{item.status}}</SPAN></TD>
+	</TR>
+	{% endfor %}
+	</table>
+	<table class='w3-table w3-striped w3-card w3-cell' style='width:25%'>
+		{% for item in items %}
+	<TR>
+	   <TD class="c2">{{item.date}}</TD>
+	   <TD class="c3">{{item.id}}</TD>
+	   <TD class="c4"><SPAN>{{item.position}}</SPAN></TD>
+	   <TD class="c5"><SPAN>{{item.status}}</SPAN></TD>
+	</TR>
+	{% endfor %}
+	</table>
+
+	<table class='w3-table w3-striped w3-card w3-cell' style='width:25%'>
+	{% for item in items %}
+	<TR>
+	   <TD class="c2">{{item.date}}</TD>
+	   <TD class="c3">{{item.id}}</TD>
+	   <TD class="c4"><SPAN>{{item.position}}</SPAN></TD>
+	   <TD class="c5"><SPAN>{{item.status}}</SPAN></TD>
+	</TR>
+	{% endfor %}
+	</table>
+</div>
+{% endblock%}

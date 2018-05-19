@@ -1,0 +1,68 @@
+
+
+<form method="POST" action="">
+    {{ form.hidden_tag()}}
+
+    <fieldset>
+        <legend>Station Create</legend>
+            <div>
+                {{ form.stationName.label}}
+                    {% if form.stationName.errors%}
+                        <div>
+                            {{ form.stationName }}
+                           {% for error in form.stationName.errors %}
+                            <span>{{ error }}</span>
+                            {% endfor%}
+                        </div>
+                    {% else %}
+                            {{ form.stationName }}
+                    {% endif %}
+
+                {{ form.IP_1.label}}
+
+                {% if form.IP_1.errors %}
+                    {{ form.IP_1 }}
+                   {% for error in form.IP_1.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor%}
+                    {% else %}
+                            {{ form.IP_1 }}
+                {% endif %}
+
+              {% if form.IP_2.errors %}
+                             {{ form.IP_2 }}
+
+                   {% for error in form.IP_2.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor%}
+                    {% else %}
+                            {{ form.IP_2 }}
+                {% endif %}
+
+              {% if form.IP_3.errors %}
+                                            {{ form.IP_3 }}
+                   {% for error in form.IP_3.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor%}
+                    {% else %}
+                            {{ form.IP_3 }}
+                {% endif %}
+
+                {% if form.IP_4.errors %}
+                                            {{ form.IP_4 }}
+                   {% for error in form.IP_4.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor%}
+                    {% else %}
+                            {{ form.IP_4 }}
+                {% endif %}
+            </div>
+        <div>
+            {{ form.submit}}
+
+        </div>
+
+
+
+    </fieldset>
+</form>

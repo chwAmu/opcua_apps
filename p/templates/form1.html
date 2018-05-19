@@ -1,0 +1,47 @@
+{% extends "base.html"%}
+{% block title%}Data Monitor{% endblock%}
+{% block content %}
+
+    <form action = "{{url_for("stationCreate")}}" method = "POST">
+      <input name = "stationName" placeholder="station Name" required="required">
+      <input name = "IP_1" type="number" min="0" max="255" required="required" placeholder="192" ><span>.</span>
+      <input name = "IP_2" type="number" min="0" max="255" required="required" placeholder="168"><span>.</span>
+      <input name = "IP_3" type="number" min="0" max="255" required="required" placeholder="000"><span>.</span>
+      <input name = "IP_4" type="number" min="0" max="255" required="required" placeholder="100">
+      <input type ="submit" name = "stationAdded">
+    </form>
+
+    <form action = "{{url_for("stationCreate")}}" method = "POST">
+      <input name = "stationName" placeholder="station Name" required="required">
+      <input name = "IP_1" type="number" min="0" max="255" required="required" placeholder="192" ><span>.</span>
+      <input name = "IP_2" type="number" min="0" max="255" required="required" placeholder="168"><span>.</span>
+      <input name = "IP_3" type="number" min="0" max="255" required="required" placeholder="000"><span>.</span>
+      <input name = "IP_4" type="number" min="0" max="255" required="required" placeholder="100">
+      <input type ="submit" name = "stationDummy_Added">
+    </form>
+
+    <h3>data</h3>
+        <div class = "table-responsive">
+        <table class = "table table-bordered table-hover">
+          <tr>
+            <th>station name</th>
+            <th>Ip address</th>
+          </tr>
+
+          {% for x in name %}{% set name = loop %}
+          {% for y in ip %}{% if loop.index==name.index %}
+          <tr>
+            <td>{{x}}</td>
+            <td>{{y}}</td>
+            <td>
+              <input type="button" id={{x}} value="Delete" onclick=stationDelete(['{{x}}','stationDelete'])>
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+
+        </table>
+      </div>
+{% endblock%}

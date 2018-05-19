@@ -1,0 +1,22 @@
+
+<title>{% block title%} {{ setting.SETTING}} {% endblock %}</title>
+	{% block style %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<script type="text/javascript" src="{{ url_for('static',filename='script.js')}}"></script>
+	<script type=text/javascript src="{{ url_for('static', filename='jquery.js') }}"></script>
+	{% endblock %}
+
+	{% block navbar %}
+	 <div class="w3-bar w3-black">
+  		<a href="#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  		<a href="stationCreate" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+  		<a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+  		<a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+	</div> 
+	{% endblock %}
+
+	{% block content %}
+	{% endblock %}
+
+	{% block footer%}
+	{% endblock %}
