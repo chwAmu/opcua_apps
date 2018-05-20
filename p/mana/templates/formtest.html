@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content%}
+
+<div class="content-section">
+    <form method="POST" action="">
+    {{ form.hidden_tag()}}
+
+    <fieldset class="form-group">
+        <legend class="border-bottom mb-4">Station Create</legend>
+                <div class="form-group">
+                    {{ form.name.label(class="form-control-label")}}
+                        {% if form.name.errors%}
+                            {{ form.name (class="form-control col-lg-1 is-invalid")}}
+                            <span class="invalid-feedback">station is incorrect</span>
+                        {% else%}
+                            {{ form.name (class="form-control col-lg-1")}}
+                        {% endif %}
+                    
+                </div>
+                <div class="form-group">
+                    {{ form.IP_1.label(class="form-control-label")}}
+                        {% if form.IP_1.errors%}
+                            {{ form.IP_1 (class="form-control col-lg-1 is-invalid")}}
+                            <span class="invalid-feedback">IP is incorrect</span>
+                        {% else%}
+                            {{ form.IP_1 (class="form-control col-lg-1")}}
+                        {% endif %}
+                    
+                </div>
+    </fieldset>
+        <div class="form-group">
+            {{ form.submit}}
+
+        </div>
+
+</form>
+
+</div>
+
+<div>
+    {% for station in stations%}
+        <div>
+        {{ station.name}}
+        {{ station.ip}}
+        </div>
+    {% endfor%}
+
+
+
+</div>
+
+
+{% endblock content%}
+
