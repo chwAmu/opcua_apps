@@ -1,0 +1,98 @@
+{% extends "layout.html" %}
+{% block content%}
+
+<div class="content-section">
+    <form method="POST" action="">
+    {{ form.hidden_tag()}}
+
+    <fieldset class="form-group">
+        <legend class="border-bottom mb-4">Tag Create</legend>
+                <div class="form-group">
+                    {{ form.name.label(class="form-control-label")}}
+                        {% if form.name.errors%}
+                            {{ form.name (class="form-control col-sm-6 is-invalid")}}
+                            <span class="invalid-feedback">Please enter the tag name!</span>
+                        {% else%}
+                            {{ form.name (class="form-control col-sm-6")}}
+                        {% endif %}
+                    
+                </div>
+
+                <div class="form-group">
+                    {{ form.address.label(class="form-control-label")}}
+                        {% if form.address.errors%}
+                            {{ form.address (class="form-control col-sm-6 is-invalid")}}
+                            <span class="invalid-feedback">Please enter the tag node!</span>
+                        {% else%}
+                            {{ form.address (class="form-control col-sm-6")}}
+                        {% endif %}
+                    
+                </div>
+
+				<div>
+					<div class="form-group">
+					{{form.dataType.label}}
+					{{form.dataType}}
+							
+					</div>
+
+				</div>
+
+    </fieldset>
+        <div class="form-group">
+            {{ form.submit}}
+
+        </div>
+
+</form>
+
+</div>
+
+<table class="table table-striped table-bordered">
+	<thead>
+		<tr>
+			<th>Tag Name</th>
+			<th>DataType</th>
+			<th>OPCUA Node</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for tag in tags%}
+		<tr>
+			<td>{{tag.name}}</td>
+			<td>{{tag.datatype}}</td>
+			<td>{{tag.address}}</td>
+			<td>
+				<form method="POST" action="">
+				    {{ eform.hidden_tag()}}
+					<span hidden>{{ eform.hidden_edit(value=tag.name)}}</span>
+					<h2>
+						<a href="{{url_for('tagEdit',tag_id=tag.id)}}">edit</a>
+						
+					</h2>
+					{{eform.submit}}
+				</form>
+		
+			</td>
+			
+			<td>
+				<form method="POST" action="">
+				    {{ dform.hidden_tag()}}
+					<span hidden>{{ dform.hidden_del(value=tag.name)}}</span>
+					{{dform.submit}}
+				</form>
+		
+			</td>
+
+		</tr>
+	    {% endfor%}
+
+	</tbody>
+	
+</table>
+
+
+
+{% endblock content %}
