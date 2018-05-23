@@ -45,6 +45,7 @@ def tagOper():
         for d in dup:
             db.session.delete(d)
         db.session.commit()
+        app.logger.info('loog')
         flash('tag is delected!','danger')
         return redirect(url_for('tagOper'))
 
