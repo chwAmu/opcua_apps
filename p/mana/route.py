@@ -45,8 +45,8 @@ def tagOper():
         for d in dup:
             db.session.delete(d)
         db.session.commit()
-        app.logger.info('loog')
-        flash('tag is delected!','danger')
+        app.logger.info('node:'+dform.hidden_del.data+' is deleted.')
+        flash('tag is deleted!','danger')
         return redirect(url_for('tagOper'))
 
     elif form.validate_on_submit():

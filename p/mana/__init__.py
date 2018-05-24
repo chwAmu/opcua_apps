@@ -8,5 +8,3 @@ db=SQLAlchemy(app)
 
 from mana import route
 from mana import machine
-
-app.logger.addHandler(machine.handler)
