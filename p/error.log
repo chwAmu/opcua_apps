@@ -54,3 +54,994 @@
 2018-05-24 12:57:40,114 - werkzeug - WARNING -  * Debugger is active!
 2018-05-24 12:57:40,130 - werkzeug - INFO -  * Debugger PIN: 397-064-082
 2018-05-24 12:57:40,130 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 20:15:33,692 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 20:15:33,720 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:15:34,223 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:15:34,518 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:17:45,541 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/datalog.py', reloading
+2018-05-24 20:17:45,606 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:17:57,532 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 20:17:57,533 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:17:58,003 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:17:58,014 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:18:44,727 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:18:44,812 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:18:48,610 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:18:48,673 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:19:01,906 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:19:01,970 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:19:02,567 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:19:02,610 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:19:12,143 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:12] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:19:12,320 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:12] "GET /static/main.css HTTP/1.1" 304 -
+2018-05-24 20:19:17,260 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:17] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:19:17,283 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:17] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:19:18,675 - flask.app - INFO - node:213231 is deleted.
+2018-05-24 20:19:18,677 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:18] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:19:18,688 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:19:18] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:24:48,189 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:24:48] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:25:00,141 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:00] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:25:00,152 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:00] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:25:02,872 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:02] "POST /tagOper HTTP/1.1" 500 -
+2018-05-24 20:25:02,997 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:02] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 20:25:03,007 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:03] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 20:25:03,025 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:03] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 20:25:03,090 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:03] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 20:25:03,174 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:03] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:25:03,307 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:03] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:25:06,503 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:06] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:25:38,119 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:38] "GET /tagEdit/1/edit HTTP/1.1" 200 -
+2018-05-24 20:25:40,140 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:40] "GET /tagEdit/1/edit HTTP/1.1" 200 -
+2018-05-24 20:25:46,167 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:46] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:25:46,270 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:46] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:25:48,113 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:48] "GET /tagEdit/2/edit HTTP/1.1" 200 -
+2018-05-24 20:25:50,280 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:50] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:25:58,276 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:25:58] "POST /tagOper HTTP/1.1" 200 -
+2018-05-24 20:26:01,754 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:01] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:26:01,767 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:01] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:26:06,614 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:06] "GET /tagEdit/3/edit HTTP/1.1" 200 -
+2018-05-24 20:26:42,771 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/machine.py', reloading
+2018-05-24 20:26:42,863 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:26:47,755 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:26:47,936 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:26:49,120 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:49] "POST /tagEdit/3/edit HTTP/1.1" 200 -
+2018-05-24 20:26:50,779 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:50] "GET / HTTP/1.1" 200 -
+2018-05-24 20:26:54,680 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:54] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:26:58,994 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:58] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:26:59,007 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:26:59] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:27:03,494 - flask.app - INFO - node:testing1 is deleted.
+2018-05-24 20:27:03,496 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:03] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:27:03,506 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:03] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:27:06,389 - flask.app - INFO - node:testing1222 is deleted.
+2018-05-24 20:27:06,392 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:06] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:27:06,405 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:06] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:27:07,787 - flask.app - INFO - node:55544 is deleted.
+2018-05-24 20:27:07,790 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:07] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:27:07,800 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:07] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:27:08,779 - flask.app - INFO - node:912 is deleted.
+2018-05-24 20:27:08,782 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:08] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:27:08,794 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:27:08] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:27:42,807 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/datalog.py', reloading
+2018-05-24 20:27:42,877 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:27:43,465 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:27:43,476 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:28:05,824 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:28:05,896 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:28:06,416 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:28:06,426 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:29:35,789 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:29:35,853 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:29:36,532 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:29:36,569 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:29:50,790 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:29:50,859 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:29:51,380 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:29:51,390 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:30:41,176 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:30:41,242 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:30:41,813 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:30:41,823 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:31:08,240 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:31:08,306 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:38:18,041 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 20:38:18,057 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:38:18,537 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:38:18,701 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:38:32,953 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:32] "GET / HTTP/1.1" 200 -
+2018-05-24 20:38:33,398 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:33] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 20:38:40,153 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:40] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:38:44,153 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:44] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:38:44,162 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:44] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:38:47,395 - flask.app - INFO - node:9999 is deleted.
+2018-05-24 20:38:47,399 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:47] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:38:47,410 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:38:47] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:39:37,977 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:39:38,093 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:39:43,064 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:39:43,168 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:39:45,231 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:39:45,297 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:39:45,829 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:39:45,840 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:39:47,961 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:39:47] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:39:50,915 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:39:50] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:39:50,924 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:39:50] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:39:52,456 - flask.app - INFO - node:41241 is deleted.
+2018-05-24 20:39:52,458 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:39:52] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:39:52,466 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:39:52] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:40:21,430 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:40:21,499 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:40:22,033 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:40:22,044 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:41:34,184 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:41:34,251 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:41:34,759 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:41:34,771 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:41:43,815 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:43] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:41:47,178 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:47] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:41:47,190 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:47] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:41:48,681 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:48] "POST /tagOper HTTP/1.1" 500 -
+2018-05-24 20:41:48,707 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:48] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 20:41:48,716 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:48] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 20:41:48,718 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:48] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 20:41:48,787 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:48] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 20:41:49,134 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:49] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:41:49,179 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:49] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:41:56,107 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:41:56,178 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:41:56,707 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:41:56,720 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:41:57,382 - flask.app - INFO - node:2411 is deleted.
+2018-05-24 20:41:57,384 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:57] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:41:57,425 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:41:57] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:00,863 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:00] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:00,874 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:00] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:02,487 - flask.app - INFO - node:1231 is deleted.
+2018-05-24 20:42:02,489 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:02] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:02,496 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:02] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:17,061 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:42:17,133 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:42:17,906 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:42:17,918 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:42:19,224 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:19] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:22,009 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:22] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:22,021 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:22] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:23,525 - flask.app - INFO - node:24124 is deleted.
+2018-05-24 20:42:23,528 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:23] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:23,538 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:23] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:28,384 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:28] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:28,395 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:28] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:29,371 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:29] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:30,121 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:30] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:30,601 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:30] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:31,434 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:31] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:32,011 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:32] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:42:32,653 - flask.app - INFO - node:41241241 is deleted.
+2018-05-24 20:42:32,656 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:32] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:42:32,666 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:42:32] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:49:27,068 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:49:27,136 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:49:32,249 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:49:32,369 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:49:33,094 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:33] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:49:36,090 - flask.app - INFO - <Tag (transient 4378621040)>
+2018-05-24 20:49:36,092 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:36] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:49:36,101 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:36] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:49:41,299 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:41] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:49:46,363 - flask.app - INFO - <Tag (transient 4378465448)>
+2018-05-24 20:49:46,365 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:46] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:49:46,373 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:49:46] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:49:49,665 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:49:49,731 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:49:50,253 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:49:50,264 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:50:06,536 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:50:06,605 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:50:07,107 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:50:07,118 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:50:14,293 - flask.app - INFO - <Tag (transient 4377340560)>
+2018-05-24 20:50:14,582 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:14] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:50:14,935 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:14] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:50:21,337 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:50:21,598 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:50:27,383 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:50:27,421 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:50:27,517 - flask.app - INFO - <Tag (transient 4382766416)>
+2018-05-24 20:50:27,519 - flask.app - INFO - <Tag (transient 4382767536)>
+2018-05-24 20:50:27,525 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:27] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:50:27,568 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:27] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:50:27,705 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:27] "POST /tagOper HTTP/1.1" 500 -
+2018-05-24 20:50:51,830 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:50:51,904 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:50:52,433 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:50:52,444 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:50:55,500 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:50:55,586 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:50:56,129 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:50:56,142 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:50:56,414 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:50:56] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:51:10,381 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:51:10,448 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:51:10,973 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:51:10,983 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:51:11,047 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:11] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:51:13,278 - flask.app - INFO - <Tag (transient 4378589056)>
+2018-05-24 20:51:13,280 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:13] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:51:13,288 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:13] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:51:19,181 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:51:19,252 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:51:19,819 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:51:19,830 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:51:33,045 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:51:33,116 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:51:33,686 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:51:33,697 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:51:38,793 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:51:38,865 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:51:39,420 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:51:39,431 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:51:41,969 - flask.app - INFO - <Tag (transient 4377340336)>
+2018-05-24 20:51:41,971 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:41] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:51:42,009 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:42] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:51:43,613 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:51:43] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:52:02,833 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:52:02,905 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:52:03,411 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:52:03,423 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:52:06,204 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "POST /tagOper HTTP/1.1" 500 -
+2018-05-24 20:52:06,288 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 20:52:06,289 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 20:52:06,291 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 20:52:06,345 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 20:52:06,407 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:52:06,457 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:06] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 20:52:16,635 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 20:52:16,702 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:52:17,276 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:52:17,288 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:52:19,070 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:19] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:52:19,113 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:19] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:52:24,134 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:24] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:52:24,145 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:52:24] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:15,077 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:54:15,212 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:54:19,484 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:54:19,551 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:54:20,507 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:20] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:23,324 - flask.app - INFO - node:9991 is deleted.
+2018-05-24 20:54:23,327 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:23] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:54:23,338 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:23] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:24,879 - flask.app - INFO - node:24124 is deleted.
+2018-05-24 20:54:24,881 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:24] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:54:24,890 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:24] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:26,864 - flask.app - INFO - node:111231 is deleted.
+2018-05-24 20:54:26,866 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:26] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:54:26,874 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:26] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:28,053 - flask.app - INFO - node:9911 is deleted.
+2018-05-24 20:54:28,057 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:28] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:54:28,067 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:54:28] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:54:34,809 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:54:34,872 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:54:35,652 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:54:35,673 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:54:38,726 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:54:38,797 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:54:39,331 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:54:39,341 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:55:34,184 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:55:34,256 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:55:34,794 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:55:34,804 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:55:37,926 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:55:37] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 20:55:47,828 - flask.app - INFO - station: s71500 is added.
+2018-05-24 20:55:47,832 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:55:47] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 20:55:47,841 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:55:47] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 20:56:10,365 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:56:10,432 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:56:10,975 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:56:10,986 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:56:17,070 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:56:17,141 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:56:17,675 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:56:17,686 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:56:45,114 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:56:45,187 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:56:45,849 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:56:45,860 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:56:52,978 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:56:53,045 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:56:53,592 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:56:53,603 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:57:06,809 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:57:06,878 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:57:08,025 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:57:08,442 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:57:32,834 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 20:57:32,903 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 20:57:33,441 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 20:57:33,451 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 20:57:36,317 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:57:36] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 20:58:28,937 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:58:28] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 20:58:33,149 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:58:33] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 20:58:43,795 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:58:43] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 20:58:43,805 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 20:58:43] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:00:03,550 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:00:03] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:01:26,191 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper HTTP/1.1" 500 -
+2018-05-24 21:01:26,275 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:01:26,275 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:01:26,276 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:01:26,344 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:01:26,510 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:01:26,641 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:26] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:01:44,154 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper HTTP/1.1" 500 -
+2018-05-24 21:01:44,177 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:01:44,178 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:01:44,180 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:01:44,232 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:01:44,411 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:01:44,546 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:44] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:01:57,948 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:01:57] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:02:50,866 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:50] "GET /tagOper HTTP/1.1" 500 -
+2018-05-24 21:02:50,890 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:50] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:02:50,891 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:50] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:02:50,891 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:50] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:02:50,945 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:50] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:02:51,154 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:51] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:02:51,292 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:51] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:02:59,746 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:02:59] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:03:01,588 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:01] "GET /tagEdit/1/edit HTTP/1.1" 200 -
+2018-05-24 21:03:03,697 - flask.app - INFO - node:tag1 is deleted.
+2018-05-24 21:03:03,700 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:03] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:03:03,712 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:03] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:03:04,653 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:04] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:03:11,708 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:11] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:03:11,719 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:11] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:03:56,648 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:03:56] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:04:09,531 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:04:09] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:04:29,061 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:04:29] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:04:52,530 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:04:52] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:05:01,467 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:05:01] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:07:26,074 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:07:26] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:07:27,386 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:07:27] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:07:58,499 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:07:58] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:08:31,312 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:08:31] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:08:39,701 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:08:39] "GET /tagEdit/1/edit HTTP/1.1" 200 -
+2018-05-24 21:12:29,196 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:12:29,325 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:12:35,032 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:12:35,151 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:14:08,620 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:14:08,690 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:14:12,818 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:14:12,922 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:14:37,377 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:14:37] "GET /tagEdit/1/edit HTTP/1.1" 404 -
+2018-05-24 21:14:41,827 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:14:41] "GET /tagEdit/1/edit HTTP/1.1" 404 -
+2018-05-24 21:15:22,813 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:22] "GET /tagEdit/1/edit HTTP/1.1" 404 -
+2018-05-24 21:15:27,103 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:15:27,173 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:15:27,716 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:15:27,727 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:15:27,749 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:27] "GET /tagEdit/1/edit HTTP/1.1" 404 -
+2018-05-24 21:15:28,811 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:28] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:15:28,844 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:28] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 21:15:31,366 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:31] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:15:34,067 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:34] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:15:56,425 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:56] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:15:58,062 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:15:58] "GET /tagEdit/url_for('tagEdit',tag_id=tag_id) HTTP/1.1" 404 -
+2018-05-24 21:16:00,179 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:16:00] "GET /tagEdit/url_for('tagEdit',tag_id=tag_id) HTTP/1.1" 404 -
+2018-05-24 21:17:38,463 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:38] "GET /tagEdit/url_for('tagEdit',tag_id=tag_id) HTTP/1.1" 404 -
+2018-05-24 21:17:43,323 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:43] "GET /tagEdit/url_for('tagEdit',tag_id=tag_id) HTTP/1.1" 404 -
+2018-05-24 21:17:44,637 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:17:44,689 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:17:44,689 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:17:44,689 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:17:44,744 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:17:44,862 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:17:44,960 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:17:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:18:13,120 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:18:13,140 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:18:13,143 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:18:13,144 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:18:13,198 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:18:13,307 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:18:13,403 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:18:13] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:23:02,883 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:23:03,041 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:23:26,072 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 21:23:26,088 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:23:26,600 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:23:26,754 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:29:29,829 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:29:29] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:29:29,893 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:29:29] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 21:29:32,646 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:29:32] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:29:36,480 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:29:36] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:29:37,492 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:29:37] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:32:31,802 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:31] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:32:31,854 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:31] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:32:31,854 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:31] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:32:31,856 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:31] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:32:31,902 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:31] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:32:32,000 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:32] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:32:32,082 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:32:32] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:14,000 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:33:14,019 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:33:14,020 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:33:14,022 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:33:14,070 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:33:14,163 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:14,255 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:14] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:15,018 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:15] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:33:15,200 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:15] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 21:33:17,665 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:33:17,683 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:33:17,688 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:33:17,696 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:33:17,744 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:33:17,836 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:17,938 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:17] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:32,361 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:33:32,456 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:33:37,463 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:33:37,585 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:33:37,894 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:37] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:33:37,912 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:37] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:33:37,913 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:37] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:33:37,914 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:37] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:33:37,950 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:37] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:33:38,032 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:38] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:38,083 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:38] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:39,531 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:33:39,550 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:33:39,555 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:33:39,560 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:33:39,604 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:33:39,695 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:39,775 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:39] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:50,411 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:33:50,434 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:33:50,439 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:33:50,440 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:33:50,488 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:33:50,599 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:33:50,691 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:33:50] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:34:03,635 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:34:03] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:34:34,561 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:34:34] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:34:36,002 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:34:36] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:34:37,057 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:34:37] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:35:06,996 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:35:07,069 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:35:07,624 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:35:07,636 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:35:08,250 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:35:08] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:35:09,540 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:35:09] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:35:22,874 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:35:22,943 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:39:15,220 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 21:39:15,237 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:39:15,749 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:39:15,971 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:39:17,293 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:39:17] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:39:18,620 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:39:18] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:39:22,159 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:39:22] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:44:38,537 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:44:38,626 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:44:44,149 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:44:44,278 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:44:44,568 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "POST /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:44:44,609 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:44:44,620 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:44:44,621 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:44:44,676 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:44:44,731 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:44:44,798 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:44:44] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:44:50,392 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:44:50,461 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:44:51,006 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:44:51,056 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:45:10,333 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:45:10,405 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:45:11,000 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:45:11,010 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:45:11,732 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:11] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:45:17,921 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:17] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:45:23,466 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:23] "GET /tagEdit HTTP/1.1" 404 -
+2018-05-24 21:45:30,862 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:30] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:45:47,540 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:45:47,606 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:45:48,119 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:45:48,129 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:45:50,251 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:50] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:45:55,095 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:55] "POST /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:45:59,677 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:45:59] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:46:23,631 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:46:23,695 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:46:24,216 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:46:24,227 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:46:42,489 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:46:42,564 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:46:43,169 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:46:43,181 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:49:51,842 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:49:51,946 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:49:55,642 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:49:55,742 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:50:12,257 - flask.app - INFO - 9241241
+2018-05-24 21:50:12,259 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:12] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:50:12,373 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:12] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:27,037 - flask.app - INFO - 123123
+2018-05-24 21:50:27,039 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:27] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:50:27,049 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:27] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:36,079 - flask.app - INFO - node:modi is deleted.
+2018-05-24 21:50:36,082 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:36] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:50:36,092 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:36] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:39,047 - flask.app - INFO - node:9241241 is deleted.
+2018-05-24 21:50:39,050 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:39] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:50:39,063 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:39] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:45,521 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:45] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:47,330 - flask.app - INFO - node:123123 is deleted.
+2018-05-24 21:50:47,332 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:47] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:50:47,341 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:50:47] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:50:57,820 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-24 21:50:57,838 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:50:58,385 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:50:58,464 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:51:09,535 - flask.app - INFO - tag1
+2018-05-24 21:51:09,538 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:09] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:51:09,633 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:09] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:19,791 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:51:19,872 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:51:20,508 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:51:20,519 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:51:21,158 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:21] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:24,720 - flask.app - INFO - node:tag1 is deleted.
+2018-05-24 21:51:24,722 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:24] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:51:24,730 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:24] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:34,159 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:34] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:51:34,170 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:34] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:36,839 - flask.app - INFO - node:1111 is deleted.
+2018-05-24 21:51:36,841 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:36] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:51:36,852 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:36] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:46,888 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:51:46,966 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:51:47,554 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:51:47,565 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:51:55,142 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:55] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:51:59,258 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:59] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:51:59,268 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:51:59] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:52:11,917 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:52:11,999 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:52:12,523 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:52:12,534 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:52:21,705 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:52:21] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:52:21,744 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:52:21] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:52:52,115 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/models.py', reloading
+2018-05-24 21:52:52,193 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:52:52,719 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:52:52,730 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:53:06,915 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:06] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:53:06,954 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:06] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:53:08,784 - flask.app - INFO - node:111 is deleted.
+2018-05-24 21:53:08,786 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:08] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:53:08,797 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:08] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:53:11,071 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:11] "GET /tagEdit/2 HTTP/1.1" 200 -
+2018-05-24 21:53:13,219 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:13] "POST /tagEdit/2 HTTP/1.1" 200 -
+2018-05-24 21:53:21,044 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:21] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:53:44,513 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:53:44,583 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:53:45,182 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:53:45,194 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:53:46,306 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:46] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:53:49,578 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "POST /tagEdit/1 HTTP/1.1" 500 -
+2018-05-24 21:53:49,606 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:53:49,607 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:53:49,608 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:53:49,674 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:53:49,726 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:53:49,872 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:49] "GET /tagEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:53:55,335 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:53:55,403 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:53:55,995 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:53:56,007 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:53:56,180 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:56] "POST /tagEdit/1 HTTP/1.1" 302 -
+2018-05-24 21:53:56,218 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:56] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:53:59,191 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:53:59] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 21:54:05,800 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:54:05] "POST /tagEdit/1 HTTP/1.1" 302 -
+2018-05-24 21:54:05,811 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:54:05] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:57:08,703 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:57:08,778 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:57:13,965 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:57:14,098 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:57:15,139 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:57:15,211 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:57:15,737 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:57:15,753 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:57:20,588 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "POST /tagOper HTTP/1.1" 500 -
+2018-05-24 21:57:20,635 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:57:20,636 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:57:20,637 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:57:20,691 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:57:20,754 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:57:20,818 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:20] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:57:34,018 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:57:34,175 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:57:43,163 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:57:43,200 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:57:43,387 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:57:43,420 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper HTTP/1.1" 500 -
+2018-05-24 21:57:43,449 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 21:57:43,458 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 21:57:43,460 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 21:57:43,494 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 21:57:43,564 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:57:43,593 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:57:43] "GET /tagOper?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 21:58:03,529 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 21:58:03,623 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 21:58:04,208 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 21:58:04,219 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 21:58:04,556 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:58:04] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:58:09,426 - flask.app - INFO - node:1112 is deleted.
+2018-05-24 21:58:09,428 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:58:09] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 21:58:09,439 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:58:09] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 21:58:11,425 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 21:58:11] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 22:00:53,425 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:00:53] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 22:01:04,986 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:01:04] "GET /tagEdit/1 HTTP/1.1" 200 -
+2018-05-24 22:01:06,013 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:01:06] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:06:01,044 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:06:01,133 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:06:05,989 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:06:06,110 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:10:40,046 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:10:40] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:10:51,500 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:10:51] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:12:02,242 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:12:02,315 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:12:06,895 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:12:07,028 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:12:07,162 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView HTTP/1.1" 500 -
+2018-05-24 22:12:07,182 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:12:07,192 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:12:07,193 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:12:07,232 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:12:07,284 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:12:07,359 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:07] "GET /tagView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:12:25,344 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:12:25,414 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:12:26,002 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:12:26,013 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:12:26,123 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView HTTP/1.1" 500 -
+2018-05-24 22:12:26,140 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:12:26,141 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:12:26,144 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:12:26,171 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:12:26,239 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:12:26,308 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:12:26] "GET /tagView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:13:07,520 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:13:07] "GET /tagView HTTP/1.1" 200 -
+2018-05-24 22:13:14,714 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:13:14,785 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:13:15,310 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:13:15,321 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:14:54,823 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:14:54,917 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:14:56,340 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:14:56,428 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:14:56,633 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:14:56] "GET /tagView HTTP/1.1" 200 -
+2018-05-24 22:15:09,648 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:15:09,720 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:15:10,406 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:15:10,417 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:15:10,440 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:15:10] "GET /tagView HTTP/1.1" 200 -
+2018-05-24 22:18:22,324 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:18:22] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:18:38,106 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:18:38] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:18:56,338 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:18:56] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:18:56,417 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:18:56] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 22:19:16,557 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:19:16] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:19:19,991 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:19:19] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:19:20,009 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:19:20] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 22:20:22,534 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:22] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:20:23,356 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:23] "GET / HTTP/1.1" 200 -
+2018-05-24 22:20:24,538 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:24] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:20:25,852 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:25] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:20:36,727 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:36] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:20:38,666 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:38] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:20:57,440 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:20:57] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:22:52,716 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest HTTP/1.1" 500 -
+2018-05-24 22:22:52,766 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:22:52,766 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:22:52,767 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:22:52,821 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:22:52,914 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:52] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:22:53,020 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:53] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:22:58,740 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:22:58] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:24:15,355 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:24:15,447 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:24:32,587 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:24:32,714 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:24:33,101 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest HTTP/1.1" 500 -
+2018-05-24 22:24:33,143 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:24:33,144 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:24:33,147 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:24:33,231 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:24:33,295 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:24:33,338 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:33] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:24:44,970 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:44] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:24:54,030 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:54] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:24:55,497 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:24:55] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:25:34,816 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:25:34] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:25:44,585 - flask.app - INFO - station: station2 is added.
+2018-05-24 22:25:44,588 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:25:44] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 22:25:44,599 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:25:44] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:26:58,959 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:26:58] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:42:11,642 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:42:11] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:42:11,680 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:42:11] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 22:42:44,472 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:42:44] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:42:58,371 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:42:58] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:42:58,988 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:42:58] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:43:00,061 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:43:00] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:43:01,007 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:43:01] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:43:01,195 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:43:01] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:43:01,391 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:43:01] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:43:56,365 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:43:56,486 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:44:01,548 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:44:01,669 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:44:01,932 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:44:01] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:44:03,483 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:44:03] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:45:49,228 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:45:49,341 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:45:53,848 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:45:53,916 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:45:54,148 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:45:54,176 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:45:54,185 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:45:54,186 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:45:54,222 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:45:54,284 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:45:54,355 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:45:54] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:46:18,301 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:46:18,376 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:46:18,908 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:46:18,919 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:46:20,967 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:46:21,037 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:46:21,621 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:46:21,632 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:46:22,245 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:46:22] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:46:23,662 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:46:23] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:46:27,841 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:46:27] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:09,253 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:48:09,322 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:48:09,903 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:48:09,916 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:48:10,498 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:10] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:12,024 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:12] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:13,671 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:48:13,704 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:48:13,706 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:48:13,713 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:48:13,754 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:48:13,828 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:13,898 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:13] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:16,032 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:48:16,051 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:48:16,056 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:48:16,064 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:48:16,101 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:48:16,169 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:16,235 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:16] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:17,275 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:17] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:20,788 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:48:20,809 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:48:20,811 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:48:20,815 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:48:20,857 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:48:20,925 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:20,992 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:20] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:21,901 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:21] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:23,902 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:23] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:25,837 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:25] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:28,924 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:28] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:30,770 - flask.app - INFO - station: 241241 is added.
+2018-05-24 22:48:30,771 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:30] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 22:48:30,780 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:30] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:32,257 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:32] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 22:48:33,994 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:33] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:48:34,013 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 22:48:34,019 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 22:48:34,024 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 22:48:34,065 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 22:48:34,134 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:34,204 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:48:34] "GET /formtest?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 22:48:54,580 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 22:48:54,768 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 22:49:03,935 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 22:49:04,054 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 22:49:04,461 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:49:04] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:49:04,461 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:49:04] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 22:49:04,473 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:49:04] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 22:49:04,477 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:49:04] "POST /formtest HTTP/1.1" 500 -
+2018-05-24 22:49:04,532 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 22:49:04] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:04:10,978 - flask.app - INFO - node:testing is deleted.
+2018-05-24 23:04:10,982 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:10] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 23:04:10,997 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:10] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:04:13,965 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:13] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:04:15,428 - flask.app - INFO - node:213122222 is deleted.
+2018-05-24 23:04:15,431 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:15] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 23:04:15,443 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:15] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:04:16,514 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:16] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:04:19,887 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:19] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:04:23,387 - flask.app - INFO - station: 213123 is added.
+2018-05-24 23:04:23,388 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:23] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:04:23,399 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:23] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:04:24,612 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:24] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:04:24,624 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:24] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:04:26,827 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:26] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:04:32,261 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:32] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 23:04:41,140 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:04:41] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 23:15:28,320 - flask.app - INFO - station: 21321 is added.
+2018-05-24 23:15:28,323 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:15:28] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:15:28,334 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:15:28] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:15:33,287 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:15:33] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:15:33,297 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:15:33] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:15:47,000 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:15:47,100 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:15:52,418 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:15:52,574 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:16:37,237 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:16:37,308 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:16:38,824 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:16:38,891 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:16:40,585 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:40] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:16:45,478 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:45] "POST /formtest HTTP/1.1" 200 -
+2018-05-24 23:16:50,829 - flask.app - INFO - station: test1 is added.
+2018-05-24 23:16:50,832 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:50] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:16:50,841 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:50] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:16:52,976 - flask.app - INFO - station: test1 is deleted
+2018-05-24 23:16:52,978 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:52] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:16:52,985 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:16:52] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:19:28,435 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:19:28,508 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:19:34,288 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:19:34,397 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:19:38,491 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:19:38,571 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:19:39,083 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:19:39,093 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:19:40,482 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:19:40] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:19:46,160 - flask.app - INFO - station: ets1 is added.
+2018-05-24 23:19:46,162 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:19:46] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:19:46,173 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:19:46] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:19:48,310 - flask.app - INFO - station: ets1 is deleted
+2018-05-24 23:19:48,312 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:19:48] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:19:48,320 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:19:48] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:19:54,327 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:19:54,393 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:19:54,940 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:19:54,951 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:21:55,707 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:21:55,828 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:22:00,873 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:22:00,994 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:22:01,399 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:01] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:22:05,637 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:05] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:22:11,763 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:11] "GET /stationEdit HTTP/1.1" 404 -
+2018-05-24 23:22:24,652 - flask.app - INFO - station: etset1 is added.
+2018-05-24 23:22:24,654 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:24] "POST /formtest HTTP/1.1" 302 -
+2018-05-24 23:22:24,664 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:24] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:22:34,919 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:34] "GET /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:22:34,945 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:34] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:22:34,954 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:34] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:22:34,956 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:34] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:22:35,048 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:35] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:22:35,131 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:35] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:22:35,218 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:35] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:22:57,882 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:22:57,958 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:22:58,543 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:22:58,553 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:22:58,904 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:22:58] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:34:22,282 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:34:22,399 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:34:28,931 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:34:29,140 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:34:52,511 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:34:52,578 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:34:53,218 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:34:53,243 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:34:54,184 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:34:54] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:36:14,695 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:14] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:36:18,299 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:36:18,342 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:36:18,352 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:36:18,353 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:36:18,444 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:36:18,596 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:36:18,680 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:36:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:37:01,811 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:01] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:37:06,695 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:37:06,713 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:37:06,720 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:37:06,723 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:37:06,769 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:37:06,844 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:37:06,918 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:37:06] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:37:46,811 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:37:46,915 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:37:50,941 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:37:51,009 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:38:19,037 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:38:19,058 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:38:19,059 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:38:19,063 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:38:19,105 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:38:19,226 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:38:19,296 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:38:19] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:13,195 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:40:13,225 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:40:13,234 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:40:13,236 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:40:13,277 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:40:13,353 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:13,424 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:13] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:14,697 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:15,491 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:15] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:16,142 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:16] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:40:16,176 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:16] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 23:40:18,037 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:40:18,060 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:40:18,061 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:40:18,062 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:40:18,122 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:40:18,207 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:18,305 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:18] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:20,971 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:20] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:40:26,161 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:26] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:40:27,904 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:27] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:40:27,927 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:27] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:40:27,928 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:27] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:40:27,930 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:27] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:40:27,972 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:27] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:40:28,054 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:28] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:40:28,127 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:40:28] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:41:08,982 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:41:09,066 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:41:14,003 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:41:14,135 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:41:14,399 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "POST /stationEdit/1 HTTP/1.1" 500 -
+2018-05-24 23:41:14,443 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-05-24 23:41:14,444 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-05-24 23:41:14,445 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-05-24 23:41:14,502 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-05-24 23:41:14,584 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:41:14,663 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:14] "GET /stationEdit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-05-24 23:41:51,723 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:41:51,792 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:41:52,335 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:41:52,347 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:41:55,196 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:55] "POST /stationEdit/1 HTTP/1.1" 302 -
+2018-05-24 23:41:55,231 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:55] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:41:58,697 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:41:58] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:42:00,119 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:42:00] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:43:13,235 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:13] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:43:15,017 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:15] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:43:18,175 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:18] "POST /stationEdit/1 HTTP/1.1" 302 -
+2018-05-24 23:43:18,184 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:18] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:43:20,087 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:20] "GET /stationEdit/1 HTTP/1.1" 200 -
+2018-05-24 23:43:22,776 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:22] "POST /stationEdit/1 HTTP/1.1" 302 -
+2018-05-24 23:43:22,785 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:43:22] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:43:29,783 - werkzeug - INFO -  * Detected change in '/Users/chrischung/Documents/GitHub/opcua_apps/p/mana/route.py', reloading
+2018-05-24 23:43:29,852 - werkzeug - INFO -  * Restarting with stat
+2018-05-24 23:43:34,558 - werkzeug - WARNING -  * Debugger is active!
+2018-05-24 23:43:34,702 - werkzeug - INFO -  * Debugger PIN: 317-691-470
+2018-05-24 23:44:03,755 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:03] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:44:33,077 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:33] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:44:36,888 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:36] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:44:36,935 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:36] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 23:44:41,119 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:41] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:44:44,681 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:44] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:44:44,720 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:44] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 23:44:58,545 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:44:58] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:45:03,522 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:03] "GET /formtest HTTP/1.1" 200 -
+2018-05-24 23:45:03,554 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:03] "GET /static/main.css HTTP/1.1" 200 -
+2018-05-24 23:45:12,609 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:12] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:45:20,643 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:20] "POST /tagOper HTTP/1.1" 302 -
+2018-05-24 23:45:20,654 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:20] "GET /tagOper HTTP/1.1" 200 -
+2018-05-24 23:45:35,701 - werkzeug - INFO - 127.0.0.1 - - [24/May/2018 23:45:35] "GET /tagOper HTTP/1.1" 200 -

@@ -1,6 +1,7 @@
 # import the SQL library
-from mana import db
+from mana import db,app
 from datetime import datetime
+from mana.datalog import writelog
 
 #db structure
 
@@ -14,4 +15,13 @@ class Station(db.Model):
 	id=db.Column(db.Integer,primary_key=True)
 	name=db.Column(db.String(15),unique=True,nullable=False)
 	ip=db.Column(db.String(15))
+
+
+def writedb(col):
+	db.session.add(col)
+	db.session.commit()
+
+def deldb(col):
+	db.session.delete(col)
+	db.session.commit()
 

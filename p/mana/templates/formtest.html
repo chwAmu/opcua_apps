@@ -10,20 +10,20 @@
                 <div class="form-group">
                     {{ form.name.label(class="form-control-label")}}
                         {% if form.name.errors%}
-                            {{ form.name (class="form-control col-lg-1 is-invalid")}}
+                            {{ form.name (class="form-control col-sm-6 is-invalid")}}
                             <span class="invalid-feedback">station is incorrect</span>
                         {% else%}
-                            {{ form.name (class="form-control col-lg-1")}}
+                            {{ form.name (class="form-control col-sm-6")}}
                         {% endif %}
                     
                 </div>
                 <div class="form-group">
                     {{ form.IP_1.label(class="form-control-label")}}
                         {% if form.IP_1.errors%}
-                            {{ form.IP_1 (class="form-control col-lg-1 is-invalid")}}
+                            {{ form.IP_1 (class="form-control col-sm-6 is-invalid")}}
                             <span class="invalid-feedback">IP is incorrect</span>
                         {% else%}
-                            {{ form.IP_1 (class="form-control col-lg-1")}}
+                            {{ form.IP_1 (class="form-control col-sm-6")}}
                         {% endif %}
                     
                 </div>
@@ -37,17 +37,46 @@
 
 </div>
 
-<div>
-    {% for station in stations%}
-        <div>
-        {{ station.name}}
-        {{ station.ip}}
-        </div>
-    {% endfor%}
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Station Name</th>
+            <th>IP</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for station in stations%}
+        <tr>
+            <td>{{station.name}}</td>
+            <td>{{station.ip}}</td>
+            <td>
+                <form method="POST" action="">
+                    <h2>
+                        <a href="{{url_for('stationEdit',station_id=station.id)}}" class="btn btn-info">edit</a>
+                        
+                    </h2>
+                </form>
+        
+            </td>
+            
+            <td>
+                <form method="POST" action="">
+                    {{ dform.hidden_tag()}}
+                    <p hidden>{{ dform.hidden_del(value=station.name)}}</p>
+                    {{ dform.submit (class="btn btn-danger")}}
+                </form>
+        
+            </td>
 
+        </tr>
+        {% endfor%}
 
+    </tbody>
+    
+</table>
 
-</div>
 
 
 {% endblock content%}

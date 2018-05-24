@@ -8,3 +8,4 @@ db=SQLAlchemy(app)
 
 from mana import route
 from mana import machine
+from mana import datalog
