@@ -1,0 +1,42 @@
+<Machine>
+	<loggingRecord name="gt">
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[0]">Generator Temperature 1</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[1]">Generator Temperature 2</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[2]">Generator Temperature 3</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[3]">Generator Temperature 4</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[4]">Generator Temperature 5</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[5]">Generator Temperature 6</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[6]">Generator Temperature 7</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[7]">Generator Temperature 8</point>
+	</loggingRecord>
+	<loggingRecord name="mt">
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[8]">Motor Temperature 1</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[9]">Motor Temperature 2</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[10]">Motor Temperature 3</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[11]">Motor Temperature 4</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[12]">Motor Temperature 5</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[13]">Motor Temperature 6</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[14]">Motor Temperature 7</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[15]">Motor Temperature 8</point>
+	</loggingRecord>
+	<loggingRecord name="helpg">
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[16]">H150</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[17]">H151</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[18]">H152</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[19]">H450</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[20]">H451</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[21]">H452</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[22]">HOilin</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[23]">HOil Sump</point>
+	</loggingRecord>
+	<loggingRecord name="Spare">
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[24]">IW518</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[25]">IW520</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[26]">IW522</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[27]">IW524</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[28]">IW526</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[29]">IW528</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[30]">IW530</point>
+		<point  NodeID="ns=3;s=&quot;TestingDB&quot;.&quot;Data&quot;[31]">IW532</point>
+	</loggingRecord>	
+</Machine>

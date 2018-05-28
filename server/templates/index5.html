@@ -1,0 +1,68 @@
+{% extends "base.html"%}
+{% block title%}Data Monitor{% endblock%}
+
+{% block content %}
+	<div>
+	<div class="w3-cell-row">
+		<ul id="variableslist" class='w3-ul w3-card w3-container w3-cell' style="width: 25%">
+			<h1>Generator Temperature</h1>
+			<li id=item0>###</li>
+		  	<li id=item1>###</li>
+		  	<li id=item2>###</li>
+		  	<li id=item3>###</li>
+		  	<li id=item4>###</li>
+		  	<li id=item5>###</li>
+		  	<li id=item6>###</li>
+		  	<li id=item7>###</li>
+		</ul>
+
+		<ul id="variableslist2" class='w3-ul w3-card w3-container w3-cell' style="width: 25%">
+			<h1>Motro Temperature</h1>
+			<li id=item0>###</li>
+		  	<li id=item1>###</li>
+		  	<li id=item2>###</li>
+		  	<li id=item3>###</li>
+		  	<li id=item4>###</li>
+		  	<li id=item5>###</li>
+		  	<li id=item6>###</li>
+		  	<li id=item7>###</li>
+		</ul>
+
+		<ul id="variableslist3" class='w3-ul w3-card w3-container w3-cell' style="width: 25%">
+			<h1>Helping Gearbox</h1>
+			<li id=item0>###</li>
+		  	<li id=item1>###</li>
+		  	<li id=item2>###</li>
+		  	<li id=item3>###</li>
+		  	<li id=item4>###</li>
+		  	<li id=item5>###</li>
+		  	<li id=item6>###</li>
+		  	<li id=item7>###</li>
+		</ul>
+		<ul id="variableslist4" class='w3-ul w3-card w3-container w3-cell' style="width: 25%">
+			<h1>Spare</h1>
+			<li id=item0>###</li>
+		  	<li id=item1>###</li>
+		  	<li id=item2>###</li>
+		  	<li id=item3>###</li>
+		  	<li id=item4>###</li>
+		  	<li id=item5>###</li>
+		  	<li id=item6>###</li>
+		  	<li id=item7>###</li>
+		</ul>
+	</div>
+
+
+
+	<form name="form1" action="">
+	    <input id="Checkbox1" type="checkbox" /><label for="Checkbox1">Debug</label><br />
+	    <input type="button" class="w3-button w3-yellow w3-small" value="Exec" onclick="debugcheck();" />
+ 	</form>
+
+	<div class="w3-panel ">
+	{% for message in get_flashed_messages() %}
+		{{ message }}
+	{% endfor %}
+		</div>
+	</div>
+{% endblock%}
